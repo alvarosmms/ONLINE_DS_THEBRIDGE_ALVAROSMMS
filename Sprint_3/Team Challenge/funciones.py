@@ -1,34 +1,25 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Nov  6 23:47:00 2024
+
+@author: juanmoreno
+"""
+
 # funciones.py
-
-import numpy as np
 import random
-from variables import TABLERO, AGUA, BARCO, DISPARO, NADA
+from clases import Tablero
 
-def crear_tablero():                                                                #Creamos un tablero vacio
-    return np.full((TABLERO, TABLERO), AGUA)
+def generar_coordenada_aleatoria():
+    return random.randint(0, 9), random.randint(0, 9)
 
-def colocar_barco(tablero, eslora):                                                 #Colocamos los barcos de forma aleatoria
-    while True:                                                                     #Eslora:longitud del barco
-        orientacion = random.choice(["horizontal", "vertical"])
-        fila = random.randint(0, TABLERO - 1)
-        columna = random.randint(0, TABLERO - 1)
-        
-        if orientacion == "horizontal" and columna + eslora <= TABLERO:
-            if all(tablero[fila, columna + i] == NADA for i in range(eslora)):
-                for i in range(eslora):
-                    tablero[fila, columna + i] = BARCO
-                break
-        elif orientacion == "vertical" and fila + eslora <= TABLERO:
-            if all(tablero[fila + i, columna] == NADA for i in range(eslora)):
-                for i in range(eslora):
-                    tablero[fila + i, columna] = BARCO
-                break
+def mostrar_mensaje_bienvenida():
+    print("¡Bienvenido al juego de Hundir la Flota! Intenta hundir todos los barcos enemigos.")
 
-def disparo(tablero, fila, columna):
-    if tablero[fila, columna] == BARCO:
-        tablero[fila, columna] = DISPARO
+def verificar_fin_juego(jugador, maquina):
+    if jugador.barcos_restantes == 0:
+        print("¡Te acaba de ganar una máquina XD! Vuelve cuando quieras a intentarlo de nuevo ;-3")
         return True
-    elif tablero[fila, columna] == NADA:
-        tablero[fila, columna] = NADA
-        return False
-    return None
+    elif maquina.barcos_restantes == 0:
+        print("Enhorabuena, ¡Has ganado! Esperamos que hayas disfrutado de nuestro juego, ¡vuelve pronto!")
+        return True
+    return False
