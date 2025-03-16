@@ -1,0 +1,142 @@
+[
+    {
+        "Cluster": 0,
+        "Size": 688,
+        "Avg_Age": 37.22529069767442,
+        "Spending_Distribution": {
+            "0": 0.6976744186046512,
+            "1": 0.25726744186046513,
+            "2": 0.04505813953488372
+        },
+        "Top_Professions": {
+            "Doctor": 688
+        },
+        "Married_Ratio": 0.45203488372093026,
+        "Graduated_Ratio": 0.5741279069767442
+    },
+    {
+        "Cluster": 1,
+        "Size": 621,
+        "Avg_Age": 75.38486312399355,
+        "Spending_Distribution": {
+            "2": 0.5217391304347826,
+            "0": 0.4492753623188406,
+            "1": 0.028985507246376812
+        },
+        "Top_Professions": {
+            "Lawyer": 621
+        },
+        "Married_Ratio": 0.9259259259259259,
+        "Graduated_Ratio": 0.6135265700483091
+    },
+    {
+        "Cluster": 2,
+        "Size": 1951,
+        "Avg_Age": 48.96155817529472,
+        "Spending_Distribution": {
+            "1": 0.5494618144541261,
+            "0": 0.3054843669912865,
+            "2": 0.1450538185545874
+        },
+        "Top_Professions": {
+            "Artist": 1803,
+            "Healthcare": 74
+        },
+        "Married_Ratio": 0.981547924141466,
+        "Graduated_Ratio": 0.8692977960020503
+    },
+    {
+        "Cluster": 3,
+        "Size": 597,
+        "Avg_Age": 51.11390284757119,
+        "Spending_Distribution": {
+            "2": 0.6666666666666666,
+            "0": 0.20770519262981574,
+            "1": 0.12562814070351758
+        },
+        "Top_Professions": {
+            "Executive": 597
+        },
+        "Married_Ratio": 0.9212730318257957,
+        "Graduated_Ratio": 0.4991624790619765
+    },
+    {
+        "Cluster": 4,
+        "Size": 699,
+        "Avg_Age": 41.745350500715304,
+        "Spending_Distribution": {
+            "0": 0.597997138769671,
+            "1": 0.31616595135908443,
+            "2": 0.08583690987124463
+        },
+        "Top_Professions": {
+            "Engineer": 699
+        },
+        "Married_Ratio": 0.5937052932761088,
+        "Graduated_Ratio": 0.4434907010014306
+    },
+    {
+        "Cluster": 5,
+        "Size": 995,
+        "Avg_Age": 38.562814070351756,
+        "Spending_Distribution": {
+            "0": 0.91356783919598,
+            "1": 0.06030150753768844,
+            "2": 0.02613065326633166
+        },
+        "Top_Professions": {
+            "Artist": 704,
+            "Homemaker": 246,
+            "Executive": 2
+        },
+        "Married_Ratio": 0.12864321608040202,
+        "Graduated_Ratio": 0.7829145728643216
+    },
+    {
+        "Cluster": 6,
+        "Size": 292,
+        "Avg_Age": 36.81849315068493,
+        "Spending_Distribution": {
+            "0": 0.8287671232876712,
+            "2": 0.11301369863013698,
+            "1": 0.05821917808219178
+        },
+        "Top_Professions": {
+            "Marketing": 292
+        },
+        "Married_Ratio": 0.3287671232876712,
+        "Graduated_Ratio": 0.3904109589041096
+    },
+    {
+        "Cluster": 7,
+        "Size": 1276,
+        "Avg_Age": 25.95141065830721,
+        "Spending_Distribution": {
+            "0": 0.9764890282131662,
+            "1": 0.011755485893416929,
+            "2": 0.011755485893416929
+        },
+        "Top_Professions": {
+            "Healthcare": 1258,
+            "Artist": 9,
+            "Lawyer": 1
+        },
+        "Married_Ratio": 0.05799373040752351,
+        "Graduated_Ratio": 0.3158307210031348
+    },
+    {
+        "Cluster": 8,
+        "Size": 949,
+        "Avg_Age": 43.00526870389884,
+        "Spending_Distribution": {
+            "0": 0.6153846153846154,
+            "1": 0.3361433087460485,
+            "2": 0.04847207586933614
+        },
+        "Top_Professions": {
+            "Entertainment": 949
+        },
+        "Married_Ratio": 0.6101159114857745,
+        "Graduated_Ratio": 0.6238145416227608
+    }
+]
